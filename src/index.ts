@@ -25,3 +25,17 @@
 
 // let mySize: Size = Size.Small;
 // console.log(mySize);
+
+//Functions
+
+// setting parameters to accept type of value but can also set function to return type of value or void if no return
+
+// JS returns undefined if no value is returned => not a number
+// param optional by addign question mark, you could give param default value
+
+function calculateTax(income: number, taxYear = 2022): number {
+  if (taxYear < 2022) return income * 1.2;
+  return income * 1.3;
+}
+
+calculateTax(10_000)
