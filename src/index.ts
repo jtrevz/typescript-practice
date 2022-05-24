@@ -39,3 +39,7 @@ function calculateTax(income: number, taxYear = 2022): number {
 }
 
 calculateTax(10_000)
+
+//notes: 
+// -properly anotate fxns w. params/return types
+// -Enable: "noUnusedLocals", "noUnusedParameters", "noImplicitReturns"
